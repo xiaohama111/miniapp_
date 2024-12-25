@@ -1,0 +1,28 @@
+<view wx:if="{{show_auth}}" class='auth-container'>
+    <view class='auth-wall'>
+        <view class='auth-tips'>
+            <image src='/image/wechat-logo.png'></image>
+            <view>这一刻，记录和Ta的点点滴滴！</view>
+        </view>
+        <view class="form-item">
+            <view class="label">
+                设置头像：
+            </view>
+            <button class="avatar-btn" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+                <image wx:if="{{ avatarUrl }}" class="avatar" src="{{ avatarUrl }}"></image>
+                <view wx:else class="avatar default-icon"></view>
+            </button>
+        </view>
+        <view class="form-item">
+            <view class="label">
+                设置昵称：
+            </view>
+            <view>
+                <input type="nickname" class="input" model:value="{{ nickName }}" maxlength="{{ 8 }}" placeholder="请输入昵称，最多八个字" />
+            </view>
+        </view>
+        <button bindtap="saveUsers" class='auth-button'>
+            <view>开始使用</view>
+        </button>
+    </view>
+</view>

@@ -1,0 +1,134 @@
+{
+    "miniprogramRoot": "miniprogram/",
+    "cloudfunctionRoot": "cloudfunctions/",
+    "description": "项目配置文件。",
+    "setting": {
+        "urlCheck": false,
+        "es6": true,
+        "postcss": false,
+        "minified": true,
+        "newFeature": true,
+        "coverView": true,
+        "autoAudits": false,
+        "uglifyFileName": true,
+        "checkInvalidKey": true,
+        "checkSiteMap": true,
+        "uploadWithSourceMap": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        },
+        "enhance": true,
+        "condition": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.7.0",
+    "appid": "wx574aed8e3d6eaf82",
+    "projectname": "SayLove_V1.0",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {
+        "wxext14566970e7e9f62": "3.6.5-13"
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "分享",
+                    "pathName": "pages/sale/index/sale",
+                    "query": ""
+                },
+                {
+                    "name": "发表分享",
+                    "pathName": "pages/sale/post_sale/post_sale",
+                    "query": ""
+                },
+                {
+                    "name": "表白",
+                    "pathName": "pages/index/post/post",
+                    "query": ""
+                },
+                {
+                    "name": "情侣脸",
+                    "pathName": "pages/compare_face/face",
+                    "query": ""
+                },
+                {
+                    "name": "个人中心",
+                    "pathName": "pages/personal/index/personal",
+                    "query": ""
+                },
+                {
+                    "name": "分享详情",
+                    "pathName": "pages/sale/comment_sale/comment_sale",
+                    "query": "id=142"
+                },
+                {
+                    "name": "post_detail",
+                    "pathName": "pages/home/post_detail/post_detail",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "topic_comment",
+                    "pathName": "pages/home/topic_comment/topic_comment",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "topic_detail",
+                    "pathName": "pages/home/topic_detail/topic_detail",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "post",
+                    "pathName": "pages/home/post/post",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "post_list",
+                    "pathName": "pages/personal/post_list/post_list",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "sale_list",
+                    "pathName": "pages/personal/sale_list/sale_list",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "comment_sale",
+                    "pathName": "pages/sale/comment_sale/comment_sale",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "set_profile",
+                    "pathName": "pages/personal/set_profile/set_profile",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "message",
+                    "pathName": "pages/personal/message/message",
+                    "query": "",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "srcMiniprogramRoot": "miniprogram/",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    },
+    "cloudfunctionTemplateRoot": "cloudfunctionTemplate/",
+    "projectArchitecture": "multiPlatform"
+}

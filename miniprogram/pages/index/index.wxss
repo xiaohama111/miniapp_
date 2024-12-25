@@ -1,0 +1,109 @@
+page{
+  background-color: #43CD80;
+  display: flex;
+  flex-direction: column;
+}
+
+/** 授权按钮 **/
+.auth-container{
+  position: fixed;
+  z-index: 300;
+  width: 100%; 
+  height: 100%;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:rgba(2,2,2,0.6);
+}
+
+.auth-container .auth-wall{
+  background: white;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15rpx;
+}
+
+.auth-wall .auth-tips{
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+  font-size: 24rpx;
+}
+
+.auth-tips image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 10rpx;
+}
+
+.auth-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #43CD80;
+  width: 100%;
+  color: white;
+  font-size: 30rpx;
+  border-radius: 0rpx;
+  margin-top: 20px;
+  border-bottom-left-radius: 15rpx;
+  border-bottom-right-radius: 15rpx;
+}
+
+.auth-button .auth-image-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-button image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+
+.form-item {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20px;
+}
+
+.form-item .label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-item .input {
+    border-bottom: #777777;
+}
+
+.form-item .avatar-btn {
+    width: 60%;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.form-item .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+}
+
+.form-item .default-icon {
+    background: #c0c0c0;
+}
